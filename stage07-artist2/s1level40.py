@@ -10,6 +10,9 @@ import codestudio
 artist = codestudio.load('s1level40')
 a = artist
 
-# ???
+for count in range(4):
+    a.width=10
+    a.fd(20)
+    a.rt()
 
 artist.check()

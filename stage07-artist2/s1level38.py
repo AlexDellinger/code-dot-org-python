@@ -13,7 +13,7 @@ import codestudio
 artist = codestudio.load('s1level38')
 a = artist
 
-for count2 in range(2):
+for count2 in range(10):
     artist.color = artist.colour_random()
     for count in range(3):
         artist.move_forward(100)

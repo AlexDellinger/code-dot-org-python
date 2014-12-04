@@ -12,7 +12,7 @@ artist = codestudio.load('s1level32')
 a = artist
 
 artist.speed = 'fastest'
-for count in range(25):                          # ???
+for count in range(360):
     artist.move_forward(1)
     artist.turn_right(1)
 

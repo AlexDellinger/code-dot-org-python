@@ -12,7 +12,13 @@ artist = codestudio.load('s1level25')
 a = artist
 
 artist.color = 'red'
+a.fd()
+a.rt()
+a.fd()
+a.rt()
+a.fd()
+a.rt()
+a.fd()
 
-# ???
 
 artist.check()
