@@ -12,7 +12,7 @@ artist = codestudio.load('s1level44')
 artist.speed = 'fastest'
 a = artist
 
-for count3 in range(1):                          # ???
+for count3 in range(9):                          # ???
     for count2 in range(10):
         artist.color = artist.random_colour()
         for count in range(4):
