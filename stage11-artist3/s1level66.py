@@ -26,6 +26,6 @@ def draw_snowman(length):
 zombie.speed = 'fastest'
 
 draw_snowman(250)
-# ???
+draw_snowman(100)
 
 zombie.check()

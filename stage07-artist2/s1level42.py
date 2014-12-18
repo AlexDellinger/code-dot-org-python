@@ -11,12 +11,12 @@ import codestudio
 artist = codestudio.load('s1level42')
 artist.speed = 'faster'
 a = artist
-
-for count2 in range(10):
-    artist.color = artist.random_color()
-    for count in range(4):
+for count in range(4):
+    for count2 in range(10):
+        artist.color = artist.random_color()
+        for count in range(4):
+            artist.move_forward(20)
+            artist.turn_right(90)
         artist.move_forward(20)
-        artist.turn_right(90)
-    artist.move_forward(20)
-
+    a.rt(80)
 artist.check()

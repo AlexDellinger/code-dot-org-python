@@ -16,8 +16,10 @@ def draw_square():
         z.turn_right(90)
 
 def draw_triangle():
-    pass
+    for count in range(3):
+        z.fd()
+        z.rt(120)
 
-# ???
+draw_triangle()
 
 z.check()

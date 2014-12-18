@@ -18,12 +18,15 @@ def draw_square():
 
 def draw_triangle():
     for count in range(3):
-        z.move_forward(100)
-        z.turn_right(120)
+        z.lt(120)
+        z.fd(100)
 
 def draw_house():
-    pass
-
-# ???
-
+    draw_square()
+    z.fd()
+    z.rt()
+    z.fd()
+    draw_triangle()
+draw_house()
 z.check()
+
