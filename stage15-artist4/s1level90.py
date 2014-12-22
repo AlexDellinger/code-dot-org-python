@@ -21,8 +21,16 @@ def draw_triangle(length):
         z.turn_right(120)
 
 def draw_house(length):
-    pass
+    draw_square(length)
+    z.fd(length)
+    z.rt(30)
+    draw_triangle(length)
+    z.rt(60)
+    z.fd(length)
+    z.rt()
+    z.fd(length)
+    z.lt(180)
 
-# ???
-
+for counter in range(50,151,50):
+    draw_house(counter)                 
 z.check()
